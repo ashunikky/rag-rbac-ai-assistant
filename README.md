@@ -1,4 +1,4 @@
-# 🔐 RAG-Based RBAC Chatbot
+# 🔐 RAG-Based RBAC Assistant
 
 A **secure, production-style Retrieval-Augmented Generation (RAG) chatbot** with **Role-Based Access Control (RBAC)**.
 
