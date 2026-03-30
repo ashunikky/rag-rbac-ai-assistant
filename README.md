@@ -11,6 +11,11 @@ This system ensures that users can only access information relevant to their rol
 ![Frontend](images/frontend.png)
 ![Backend](images/backend.png)
 
+## 🌐 Live Demo
+
+- Frontend: https://rag-rbac-ai-assistant.streamlit.app/ 
+- Backend API: https://rag-rbac-ai-assistant-backend.onrender.com/docs
+
 
 ## 🚀 Features
 
