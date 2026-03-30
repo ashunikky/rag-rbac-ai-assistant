@@ -6,6 +6,12 @@ This system ensures that users can only access information relevant to their rol
 
 ---
 
+## Preview
+
+![Frontend](images/frontend.png)
+![Backend](images/backend.png)
+
+
 ## 🚀 Features
 
 * 🔐 **JWT Authentication**
@@ -173,7 +179,7 @@ This project currently uses **hardcoded users for demonstration purposes**.
 | Username       | Password | Role        |
 |----------------|----------|-------------|
 | ravi           | 1234     | Finance     |
-| Sunita         | 1234     | HR          |
+| sunita         | 1234     | HR          |
 | priya          | 1234     | Marketing   |
 | rohit          | 1234     | Engineering |
 | ashutosh       | 1234     | C-Level     |
