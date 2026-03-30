@@ -2,12 +2,19 @@ from fastapi import FastAPI, HTTPException, Depends
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from typing import List, Optional
-
 from app.auth.auth import USERS, create_access_token, get_current_user
 from app.rag.pipeline import rag_pipeline, retrieve_docs
 from app.llm.groq_client import generate_streaming_response
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 # 🏠 Health check
