@@ -188,12 +188,6 @@ This project currently uses **hardcoded users for demonstration purposes**.
 👉 Use these credentials to log in and obtain a JWT token.
 
 
-## 📸 Screenshots
-
-*Add screenshots here (UI + Swagger)*
-
----
-
 ## 🧠 Key Learnings
 
 * Secure RAG system design
