@@ -27,7 +27,7 @@ if user_input and token:
 
         with st.spinner("Thinking... 🤔"):    
             response = requests.post(
-                "http://127.0.0.1:8000/chat/stream",
+                "https://rag-rbac-ai-assistant-backend.onrender.com//chat/stream",
                 headers={"Authorization": f"Bearer {token}"},
                 json={"query": user_input},
                 stream=True
