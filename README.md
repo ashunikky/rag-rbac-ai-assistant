@@ -8,7 +8,16 @@ This system ensures that users can only access information relevant to their rol
 
 ## Preview
 
-![Frontend](images/frontend.png)
+### ### HR Dashboard Access
+Screenshot showing the **HR role** accessing leave information and general info. Other sections like **Marketing, Finance, and Engineering** are restricted.
+![HR-Frontend](images/HR-Frontend.png)
+
+### Finance Dashboard Access
+Screenshot showing the **Finance role** accessing finance-related information. Other sections such as **HR, Marketing, and Engineering** are restricted.
+
+![Finance-Frontend](images/Finance-Frontend.png)
+
+### FastAPI-Swagger [Backend]
 ![Backend](images/backend.png)
 
 ## 🌐 Live Demo
