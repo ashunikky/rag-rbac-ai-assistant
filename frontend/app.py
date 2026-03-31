@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("🔐 RAG RBAC Chatbot")
+st.title("🔐 RAG RBAC AI Assistant")
 
 token = st.text_input("Enter JWT Token", type="password")
 
